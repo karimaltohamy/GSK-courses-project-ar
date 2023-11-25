@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSK courses project</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/bootstrap.js"></script>
+  </head>
+  <body>
+    <main>
+      <!-- start header -->
+      <header>
+        <div class="container">
+          <div class="line">
+            <a href="index.html" class="logo">
+              <img src="./images/logo.png" alt="logo" loading="lazy" />
+            </a>
+            <div class="links">
+              <a href="index.html" class="link"> الرئيسية</a>
+              <a href="about.html" class="link">نبذة عنا</a>
+              <a href="our-courses.html" class="link active">دوراتنا</a>
+              <a href="blog-details.html" class="link">مدونه</a>
+              <a href="contact-us.html" class="link">اتصل بنا</a>
+            </div>
+            <div class="info">
+              <a href="#" class="lang">
+                <img src="images/ar-lang.svg" alt="lang-img" loading="lazy" />
+                <span>عربي</span>
+              </a>
+              <a href="login.html" class="btn_fill">تسجيل الدخول</a>
+              <a href="register.html" class="btn_outline">انشاء حساب</a>
+              <div class="icon_menu">
+                <svg
+                  class="trigger-opener"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  width="16px"
+                  height="12.7px"
+                  viewBox="0 0 16 12.7"
+                  style="enable-background: new 0 0 16 12.7"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <rect x="5" y="8.4" width="11" height="2"></rect>
+                    <rect x="0" y="2.4" width="16" height="2"></rect>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- start header -->
+
+      <!-- start menu mobile -->
+      <div class="overflow"></div>
+      <div class="menu_mobile">
+        <div class="head">
+          <img src="./images/logo.png" alt="logo" loading="lazy" />
+
+          <i class="fa-solid fa-xmark btn_close_menu"></i>
+        </div>
+        <div class="links">
+          <a href="index.html" class="link"> الرئيسية</a>
+          <a href="about.html" class="link">نبذة عنا</a>
+          <a href="our-courses.html" class="link active">دوراتنا</a>
+          <a href="blog-details.html" class="link">مدونه</a>
+          <a href="contact-us.html" class="link">اتصل بنا</a>
+        </div>
+      </div>
+      <!-- end menu mobile -->
+
+      <!-- start secound hero -->
+      <div class="secound_hero">
+        <div class="container">
+          <div class="content">
+            <h2>Our Courses</h2>
+            <p>
+              <a href="index.html">Home</a> /
+              <a href="our-courses.html">Our Courses</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end secound hero -->
+    </main>
+
+    <!-- start our courses -->
+    <div class="courses_section section">
+      <div class="container">
+        <div
+          class="filter"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <button class="btn_filter active">All</button>
+          <button class="btn_filter">App Development</button>
+          <button class="btn_filter">Content Marketing</button>
+          <button class="btn_filter">SEO Optimization</button>
+          <button class="btn_filter">Social Marketing</button>
+          <button class="btn_filter">App Development</button>
+        </div>
+        <div class="boxs grid">
+          <a
+            href="course-details.html"
+            class="box"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <div class="iamge">
+              <img
+                src="./images/course-img1.png"
+                alt="course-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="text">
+                <h4 class="title_box">
+                  Pharmacogenomics - Pharmacogenomics training
+                </h4>
+                <p class="desc">
+                  Certified by the Egyptian Society for Pharmacogenomics
+                </p>
+              </div>
+
+              <div class="bottom_box">
+                <div class="num_leasons">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"
+                    ></path>
+                  </svg>
+
+                  12 Leasons
+                </div>
+
+                <h6 class="price">900 EGP</h6>
+              </div>
+            </div>
+          </a>
+          <a
+            href="course-details.html"
+            class="box"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <div class="iamge">
+              <img src="./images/course-img2.png" alt="" loading="lazy" />
+            </div>
+            <div class="content">
+              <div class="text">
+                <h4 class="title_box">
+                  Pharmacogenomics - Pharmacogenomics training
+                </h4>
+                <p class="desc">
+                  Certified by the Egyptian Society for Pharmacogenomics
+                </p>
+              </div>
+
+              <div class="bottom_box">
+                <div class="num_leasons">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"
+                    ></path>
+                  </svg>
+
+                  12 Leasons
+                </div>
+
+                <h6 class="price">900 EGP</h6>
+              </div>
+            </div>
+          </a>
+          <a
+            href="course-details.html"
+            class="box"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <div class="iamge">
+              <img src="./images/course-img3.png" alt="" loading="lazy" />
+            </div>
+            <div class="content">
+              <div class="text">
+                <h4 class="title_box">
+                  Pharmacogenomics - Pharmacogenomics training
+                </h4>
+                <p class="desc">
+                  Certified by the Egyptian Society for Pharmacogenomics
+                </p>
+              </div>
+
+              <div class="bottom_box">
+                <div class="num_leasons">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"
+                    ></path>
+                  </svg>
+
+                  12 Leasons
+                </div>
+
+                <h6 class="price">900 EGP</h6>
+              </div>
+            </div>
+          </a>
+          <a
+            href="course-details.html"
+            class="box"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <div class="iamge">
+              <img
+                src="./images/course-img4.png"
+                alt="course-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="text">
+                <h4 class="title_box">
+                  Pharmacogenomics - Pharmacogenomics training
+                </h4>
+                <p class="desc">
+                  Certified by the Egyptian Society for Pharmacogenomics
+                </p>
+              </div>
+
+              <div class="bottom_box">
+                <div class="num_leasons">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"
+                    ></path>
+                  </svg>
+
+                  12 Leasons
+                </div>
+
+                <h6 class="price">900 EGP</h6>
+              </div>
+            </div>
+          </a>
+          <a
+            href="course-details.html"
+            class="box"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <div class="iamge">
+              <img src="./images/course-img5.png" alt="" loading="lazy" />
+            </div>
+            <div class="content">
+              <div class="text">
+                <h4 class="title_box">
+                  Pharmacogenomics - Pharmacogenomics training
+                </h4>
+                <p class="desc">
+                  Certified by the Egyptian Society for Pharmacogenomics
+                </p>
+              </div>
+
+              <div class="bottom_box">
+                <div class="num_leasons">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"
+                    ></path>
+                  </svg>
+
+                  12 Leasons
+                </div>
+
+                <h6 class="price">900 EGP</h6>
+              </div>
+            </div>
+          </a>
+          <a
+            href="course-details.html"
+            class="box"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <div class="iamge">
+              <img src="./images/course-img6.png" alt="" loading="lazy" />
+            </div>
+            <div class="content">
+              <div class="text">
+                <h4 class="title_box">
+                  Pharmacogenomics - Pharmacogenomics training
+                </h4>
+                <p class="desc">
+                  Certified by the Egyptian Society for Pharmacogenomics
+                </p>
+              </div>
+
+              <div class="bottom_box">
+                <div class="num_leasons">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z"
+                    ></path>
+                  </svg>
+
+                  12 Leasons
+                </div>
+
+                <h6 class="price">900 EGP</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="bottom">
+          <button class="btn_outline btn_more">Show More</button>
+        </div>
+      </div>
+    </div>
+    <!-- end our courses -->
+
+    <!-- start footer -->
+    <footer id="contact-us">
+      <div class="container">
+        <div class="row line">
+          <div class="col-12 col-md-3">
+            <div class="logo">
+              <img src="images/logo.png" alt="logo" loading="lazy" />
+            </div>
+            <p class="desc">
+              Our specialist will perform the necessary repairs right in your
+              home. Branded warranty for repairs 3 years.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <h4>Contact</h4>
+            <div class="contact">
+              <div class="item">
+                <h6>Mail:</h6>
+                <span>info@gsk-edu.com</span>
+              </div>
+              <div class="item">
+                <h6>Phone:</h6>
+                <span>01016733568 - 01024248054</span>
+              </div>
+              <div class="item">
+                <h6>Address:</h6>
+                <span
+                  >MTC Mall, Mehwar El Kafrawy From El-Hosary Square, 6th
+                  October, Giza, Egypt﻿</span
+                >
+              </div>
+            </div>
+            <div class="social_media">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="bottom_footer">
+          <p>© 2021 All rights reserved. Developed at 5Code.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

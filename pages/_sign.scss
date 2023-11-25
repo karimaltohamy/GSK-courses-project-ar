@@ -1,0 +1,117 @@
+@import "../components/variables";
+
+// start sign_section
+.sign_section {
+  height: 100vh;
+
+  .container {
+    height: 100%;
+  }
+
+  .line {
+    height: 100%;
+    .image_sign {
+      background-color: #140342;
+      color: white;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 80%;
+      }
+    }
+
+    .form {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+
+      form {
+        max-width: 450px;
+        width: 100%;
+
+        .title {
+          text-align: center;
+          font-weight: 700;
+          margin-bottom: 30px;
+        }
+
+        .input_item {
+          margin-bottom: 20px;
+          label {
+            font-size: 17px;
+            font-weight: 600;
+          }
+
+          input {
+            padding: 10px 12px;
+            outline: none;
+            border: 1px solid rgb(212, 212, 212);
+            width: 100%;
+            border-radius: 8px;
+          }
+        }
+
+        .btn_submit {
+          padding: 10px 20px;
+          width: 100%;
+          border-radius: 8px;
+        }
+
+        .link {
+          font-size: 15px;
+          color: gray;
+          text-align: center;
+          margin-top: 8px;
+
+          a {
+            color: $primary-color !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .sign_section {
+    .line {
+      display: block;
+      .content_image {
+        height: 300px;
+      }
+
+      .image_sign {
+        margin-bottom: 20px;
+        height: 100%;
+        img {
+          height: 100%;
+        }
+      }
+
+      .form {
+        form {
+          .input_item {
+            margin-bottom: 12px;
+            label {
+              font-size: 15px;
+            }
+
+            input {
+              padding: 8px 10px;
+            }
+          }
+
+          .link {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+// end sign_section

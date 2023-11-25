@@ -1,0 +1,239 @@
+@import "../components/variables";
+
+// start course_details_section
+.course_details_section {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: #140342;
+    z-index: -1;
+  }
+
+  .line {
+    .top_details {
+      color: white;
+      padding-bottom: 50px;
+
+      .title {
+        font-weight: 700;
+        font-size: 35px;
+      }
+
+      .desc {
+        max-width: 500px;
+        color: gray;
+      }
+
+      .info_details {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .profile {
+          img {
+            width: 40px;
+            height: 40px;
+            border: 2px solid white;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+
+    .video_course {
+      margin-bottom: 10px;
+      iframe {
+        width: 100%;
+        height: 400px;
+      }
+    }
+
+    .text {
+      h4,
+      h5 {
+        font-weight: 700;
+      }
+
+      .desc_course {
+        line-height: 1.7;
+        color: rgb(73, 73, 73);
+        font-weight: 500;
+      }
+
+      .list {
+        margin-bottom: 20px;
+        .item {
+          display: block;
+          color: rgb(73, 73, 73);
+          font-weight: 500;
+
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    .curriculum {
+      margin-top: 30px;
+      border: 1px solid;
+      border: 1px solid rgb(223, 223, 223);
+      border-radius: 8px;
+
+      h4 {
+        padding: 15px;
+        border-bottom: 1px solid rgb(223, 223, 223);
+        background-color: #eff1f6;
+      }
+
+      .leactures {
+        padding: 15px;
+
+        .leacture {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          &:not(:last-child) {
+            margin-bottom: 12px;
+          }
+
+          h6 {
+            margin-bottom: 0;
+            font-size: 18px;
+          }
+
+          .icon_leacture {
+            color: #adb4c6;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .box_enroll {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid rgb(221, 221, 221);
+      max-width: 320px;
+      margin: auto;
+
+      .items {
+        .item {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-bottom: 4px;
+          border-bottom: 1px solid rgb(227, 227, 227);
+
+          &:not(:last-child) {
+            margin-bottom: 8px;
+          }
+
+          span {
+            font-size: 15px;
+            color: gray;
+          }
+        }
+      }
+
+      .btn_enroll {
+        text-align: center;
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .course_details_section {
+    .line {
+      .top_details {
+        .title {
+          font-size: 22px;
+        }
+
+        .desc {
+          font-size: 14px;
+        }
+
+        .info_details {
+          .profile {
+            img {
+              width: 35px;
+              height: 35px;
+            }
+          }
+        }
+      }
+
+      .video_course {
+        iframe {
+          height: 300px;
+        }
+      }
+
+      .text {
+        h4,
+        h5 {
+          margin-bottom: 4px;
+        }
+
+        h5 {
+          font-size: 18px;
+        }
+
+        .desc_course {
+          font-size: 14px;
+          line-height: 1.5;
+          margin-bottom: 7px;
+        }
+
+        .list {
+          margin-bottom: 15px;
+
+          .item {
+            font-size: 14px;
+
+            &:not(:last-child) {
+              margin-bottom: 5px;
+            }
+          }
+        }
+      }
+
+      .curriculum {
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        h4 {
+          padding: 8px;
+          font-size: 18px;
+          margin-bottom: 0;
+        }
+
+        .leactures {
+          padding: 8px;
+        }
+      }
+
+      .box_enroll {
+        max-width: 100%;
+        padding: 15px;
+      }
+    }
+  }
+}
+// end course_details_section
